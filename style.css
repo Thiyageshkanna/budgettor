@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background-image {
+  background: url(Images/pexels-burst-545065.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+  min-width: 100vw;
+}
+
+.firstline {
+  color: white;
+  font-size: 22px !important
+  ;
+  font-weight: 700 !important;
+  background: #134659; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    top,
+    #134659,
+    #2b7692
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    bottom,
+    #134659,
+    #2b7692
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    top,
+    #134659,
+    #2b7692
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, #134659, #2b7692);
+  display: inline-block;
+  padding: 10px 10px;
+}
+.secondline {
+  padding: 9px 8px;
+  color: whitesmoke;
+  font-weight: 900 !important;
+
+  display: inline-flex;
+  background: #134659; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    top,
+    #134659,
+    #2b7692
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    bottom,
+    #134659,
+    #2b7692
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    top,
+    #134659,
+    #2b7692
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, #134659, #2b7692);
+}
+.container-fluid {
+  overflow: hidden;
+}
+#value-inc {
+  font-weight: 900 !important;
+  color: green;
+}
+#value-exp {
+  font-weight: 900;
+  color: red;
+}
+.head {
+  background-color: whitesmoke;
+  background-size: fixed;
+}
+.typing {
+  height: 69px;
+  background: #134659; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    top,
+    #134659,
+    #2b7692
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    bottom,
+    #134659,
+    #2b7692
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    top,
+    #134659,
+    #2b7692
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, #134659, #2b7692);
+  background-attachment: fixed;
+  background-color: no-repeat;
+
+  /* Standard syntax */
+  /* height: 69px;
+  background-image: linear-gradient(
+    112.1deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  ); */
+  /* background: rgb(131, 58, 180); */
+  /* background-image: linear-gradient(
+    349deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(120, 50, 50, 0.8972631288843662) 50%,
+    rgba(252, 176, 69, 1) 100%
+  ); */
+  /* background: rgb(131, 58, 180);
+  background: linear-gradient(
+    349deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(120, 50, 50, 0.8972631288843662) 50%,
+    rgba(252, 176, 69, 1) 100%
+  ); */
+}
+.second-btn {
+  border-radius: 20px !important;
+  text-align: center;
+}
+
+.btn-grad1 {
+  background-image: linear-gradient(to right, #d31027 0%, orange 51%, red 100%);
+}
+.btn-grad1 {
+  margin: 7px;
+  padding: 8px 30px !important;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s !important;
+  background-size: 200% auto !important;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px !important;
+  display: block;
+}
+
+.btn-grad1:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* second */
+.btn-grad {
+  background-image: linear-gradient(to right, #d31027 0%, orange 51%, red 100%);
+}
+.btn-grad {
+  margin: 7px;
+  padding: 8px 25px !important;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s !important;
+  background-size: 200% auto !important;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px !important;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-image: linear-gradient(
+    to right,
+    #fdfc47 0%,
+    #24fe41 51%,
+    #fdfc47 100%
+  );
+}
+.submit-btn {
+  padding: 5px 45px !important;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 20px !important;
+  display: block;
+  -webkit-animation: scale-up-center 1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    0.2s backwards;
+  animation: scale-up-center 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s
+    backwards;
+}
+@keyframes submit-btn {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.submit-btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.income-span {
+  margin-left: 70px;
+}
+.Expenditure-span {
+  margin-left: 40px;
+}
+.icon-close {
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.hoving:hover .icon-close {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.submitted {
+  -webkit-animation: shake-top 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: shake-top 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+@keyframes shake-top {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .typing {
+    height: 129px !important;
+    background-color: fixed;
+    background-attachment: fixed;
+  }
+}
